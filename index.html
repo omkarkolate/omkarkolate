@@ -4,71 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Omkar Kolate</title>
-    <link href="./styles/style.css" rel="stylesheet"/>
+    <title>omkarkolate | Home</title>
+    <link href="./styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav class="navigation container">
+      <div class="nav-brand">omkarkolate</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">blogs</a>
+        </li>
       </ul>
     </nav>
-    <section class="about" id="about">
-      <div class="profile-picture">
-        <img
-          src="https://avatars1.githubusercontent.com/u/53403067?s=460&u=26d1f90cc71a2f9dc9fd4675fcbb353f0d8086d2&v=4"
-          alt="Profile Picture"
-        />
-      </div>
-      <div class="intro">
-        <h2>Hi I am Omkar Kolate</h2>
+
+    <header class="hero">
+      <img class="hero-img" src="./images/hero.svg" />
+      <h1 class="hero-heading">
+        Omkar Kolate the <span class="heading-inverted"> web developer</span>
+      </h1>
+    </header>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>technologies</h1>
         <p>
-          Computer Engineering, 2020 Graduate and ineterested in web development
+          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting
         </p>
       </div>
-      </div>
     </section>
-    <section class="projects" id="projects">
-      <div class="project">
-        <h2>Projetcs</h2>
-        <h3>1. Randomgram</h3>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>projects</h1>
         <p>
-            Have you used Instagram? then this also the same web app with random images, random users, and random likes and you can add random comments to it.
-            Sounds interesting check out the live demo.
-        </p>  
-        <p>
-          <h5>Tech Stack: </h5>
-          ReactJS, HTML5, CSS3, Javascript, AJAX, Material UI, Rnadom User API, Picsum for images
+          I like to showcase my work and thus, you can see my projects hosted online
         </p>
-        <div>
-            <a href="https://randomgram.netlify.app" target="_blanck">Live demo</a>
-            <a href="https://github.com/omkarkolate/randomgram" target="_blanck">Source Code</a>
-        </div>
+        <a class="link link-primary" href="/projects.html">See Projects</a> 
       </div>
-      <div class="project">
-          <h3>2. Musify</h3>
-          <p>
-              Have you listened to songs on Spotify? then this also the same web app with music, enjoy listening to music with musify. 
-          Sounds interesting check out the live demo.
-          </p>  
-          <p>
-            <h5>Tech Stack: </h5>
-            ReactJS, HTML5, CSS3, Javascript, Material UI, firebase firestore.
-          </p>
-          <div>
-              <a href="https://musify-web.netlify.app" target="_blanck">Live demo</a>
-              <a href="https://github.com/omkarkolate/musify" target="_blanck">Source Code</a>
-          </div>
-        </div>
     </section>
-    <footer class="contact" id="contact">
-      Connect with me here
-      <ul>
-        <li><a href="https://www.linkedin.com/in/omkar-kolate-a20336171">LinkedIn</a></li>
-        <li><a href="https://twitter.com/omkar_kolate">Twitter</a></li>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">Connect Online with me</div>
+      <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+              <a class="link" href="/">
+                   github
+              </a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="/">
+                  twitter
+              </a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="/">
+                  linkedin 
+              </a>
+          </li>
+          
       </ul>
-    </footer>
+  </footer>
   </body>
 </html>
