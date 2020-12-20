@@ -169,3 +169,8 @@ hr{
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
+/* Justify text */
+.justify-text p   {
+    text-align: justify;
+}
