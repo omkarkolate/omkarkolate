@@ -174,3 +174,7 @@ hr{
 .justify-text p   {
     text-align: justify;
 }
+
+main .hero-img{
+    max-width: 100%;
+}
